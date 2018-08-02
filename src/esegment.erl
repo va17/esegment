@@ -24,7 +24,7 @@
 %%====================================================================
 -spec setup(string()) -> ok.
 setup(WriteKey) ->
-    setup(WriteKey, <<"esegment">>, <<"0.11">>).
+    setup(WriteKey, <<"esegment">>, <<"0.12">>).
 
 -spec setup(string(), binary(), binary()) -> ok.
 setup(WriteKey, AppName, AppVersion) ->
